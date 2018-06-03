@@ -1,0 +1,12 @@
+{
+  "name": "Bookmarklet",
+  "author": "9ballsyndrome",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "transliterate build": "node npm-scripts/bookmarkletify.js src/transliterate.js build/transliterate.js"
+  },
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  }
+}
